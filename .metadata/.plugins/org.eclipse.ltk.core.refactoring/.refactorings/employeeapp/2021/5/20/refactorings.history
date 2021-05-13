@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.employeeapp.DemoNeedOfString&apos; to &apos;DemoNeedOfToString&apos;&#x0A;- Original project: &apos;employeeapp&apos;&#x0A;- Original element: &apos;com.employeeapp.DemoNeedOfString&apos;&#x0A;- Renamed element: &apos;com.employeeapp.DemoNeedOfToString&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DemoNeedOfString&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.employeeapp{DemoNeedOfString.java[DemoNeedOfString" matchStrategy="1" name="DemoNeedOfToString" qualified="false" references="true" similarDeclarations="false" stamp="1620812622245" textual="false" version="1.0"/>
+</session>

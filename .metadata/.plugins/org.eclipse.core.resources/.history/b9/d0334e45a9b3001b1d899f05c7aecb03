@@ -1,0 +1,12 @@
+package com.employeeapp;
+
+public class UpcastingAndDowncasting {
+	
+	public static void main(String[] args) {
+		
+		double i=9;
+		int j=(int )i;
+		System.out.println(j);
+	}
+
+}

@@ -1,0 +1,8 @@
+package p.q;
+
+public class A {
+
+	public void methodA() {
+		System.out.println("methodA of class A int p.q package");
+	}
+}

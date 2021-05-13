@@ -1,0 +1,8 @@
+package a.c;
+import a.b.*;
+
+public class C {
+	public static void main(String[] args) {
+		A a=new A();
+	}
+}

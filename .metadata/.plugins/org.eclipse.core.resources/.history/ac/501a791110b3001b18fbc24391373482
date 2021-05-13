@@ -1,0 +1,8 @@
+package com.day2.session2.stackapp;
+
+public class DemoStack {
+
+	public static void main(String[] args) {
+		
+	}
+}

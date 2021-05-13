@@ -1,0 +1,18 @@
+package com.day4.session1.demo_final;
+
+class Foo {
+	void demo() {
+		System.out.println("demo method");
+	}
+}
+
+class Bar extends Foo {
+
+}
+
+public class DemoFinal {
+
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,19 @@
+package com.day4.session1.doubts;
+import java.util.*;
+public class Library {
+	private String libName;
+	private String libLocation;
+	private LinkedList<Book> books=new LinkedList<>();
+	
+	public Library(String libName, String libLocation) {
+		this.libName = libName;
+		this.libLocation = libLocation;
+	}
+
+	public void addBook(Book book) {
+		books.add(book);
+	}
+	
+	
+
+}

@@ -1,0 +1,14 @@
+package com.day4.session2.demo_string;
+
+public class DemoString {
+
+	public static void main(String[] args) {
+		
+		String b="in";
+		String a=new String("in")
+		if(a==b) {
+			System.out.println("are same");
+		}else
+			System.out.println("not same");
+	}
+}

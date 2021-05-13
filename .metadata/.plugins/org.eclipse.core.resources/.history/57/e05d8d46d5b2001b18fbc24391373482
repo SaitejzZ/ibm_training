@@ -1,0 +1,17 @@
+class Account{
+	private int id;
+	private String name;
+	private double balance;
+	
+	public Account() {
+		System.out.println("default ctr");
+	}
+	
+	
+}
+public class DemoAccount {
+
+	public static void main(String[] args) {
+		
+	}
+}

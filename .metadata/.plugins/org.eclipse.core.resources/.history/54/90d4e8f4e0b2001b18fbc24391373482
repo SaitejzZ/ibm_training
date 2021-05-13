@@ -1,0 +1,12 @@
+package p.r;
+import p.q.*;
+public class B {
+
+	static A a=new A();
+	//
+	public static void main(String[] args) {
+		
+		System.out.println(a.i);
+		a.methodA();
+	}
+}

@@ -1,0 +1,49 @@
+package com.day4.session1.overriding;
+
+import java.util.Scanner;
+
+class Shape {
+	public void getArea() {
+		System.out.println("area calcution");
+	}
+}
+class Circle extends Shape {
+	public void getArea() {
+		System.out.println("area of circle");
+	}
+}
+
+class Square extends Shape {
+	public void getArea() {
+		System.out.println("area of Square");
+	}
+}
+
+class Triangle extends Shape {
+	public void getArea() {
+		System.out.println("area of Triangle");
+	}
+}
+
+public class ExPolymorphism {
+	public static void main(String[] args) {
+		Shape shape=null;
+		System.out.println("PE choice of shape 1. Circle 2. Square 3. Tri...");
+		Scanner scanner=new Scanner(System.in);
+		int choice=scanner.nextInt();
+		if(choice==1) 
+			shape=new Circle();
+		else if(choice==2)
+			shape=new Square();
+		else if(choice==3) 
+			shape=new Triangle();
+		
+		
+		
+	}
+}
+
+
+
+
+

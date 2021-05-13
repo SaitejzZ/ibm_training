@@ -1,0 +1,19 @@
+package com.day4.session1.doubts;
+import java.util.*;
+public class Employee {
+	private int id;
+	private String name;
+	private double salary;
+	
+	private LinkedList<String> phones=new LinkedList<>();
+
+	public Employee(int id, String name, double salary) {
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+	public void addPhone(String phoneNo) {
+		phones.add(phoneNo);	
+	}
+	
+}

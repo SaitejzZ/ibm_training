@@ -1,0 +1,16 @@
+package com.day2.session1.inher;
+
+class A{
+	
+}
+
+class B extends A{
+	
+}
+public class DemoInheri {
+	
+	public static void main(String[] args) {
+	
+	}
+
+}

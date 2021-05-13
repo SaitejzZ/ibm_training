@@ -1,0 +1,13 @@
+class Foo{
+
+	private Foo(){
+		System.out.println("dare to call me!");
+	}
+	
+}
+public class DemoCtr {
+
+	public static void main(String[] args) {
+		
+	}
+}

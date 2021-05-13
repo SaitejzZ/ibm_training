@@ -1,0 +1,13 @@
+package com.day2.session2.stackapp;
+class Stack{
+	private int data[];
+	private final int SIZE;
+	private int index;
+	
+}
+public class DemoStack {
+
+	public static void main(String[] args) {
+		
+	}
+}

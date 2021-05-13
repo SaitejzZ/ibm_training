@@ -1,0 +1,27 @@
+package com.employeeapp;
+
+public class Company {
+	private final int EMPLOYEE_SIZE=10;
+	private String companyName;
+	private String companyAddress;
+	
+	private Employee[] employees;
+
+	public Company(String companyName, String companyAddress) {
+		this.companyName = companyName;
+		this.companyAddress = companyAddress;
+		this.employees=new Employee[EMPLOYEE_SIZE];
+	}
+	
+	public void addEmployee(Employee employee) {
+		//somehow i need to add employee to array
+		
+	}
+	
+	public void removeEmployee(int employeeId) {
+		//somehow i need to remove employee to array
+		
+	}
+	
+	
+}

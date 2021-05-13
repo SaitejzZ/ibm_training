@@ -1,0 +1,29 @@
+package com.employeeapp;
+// B and C aree sublings
+// B and C are compatable to A
+//But B and C themself are compatble to each other
+class A{
+}
+class B extends A{
+}
+class C extends A{
+}
+public class UpcastingAndDowncasting {
+	public static void main(String[] args) {
+		//upcasting and downcasting : for objects
+		
+		A a1=new B();// upcasting 
+		A a2=new C();
+		
+		//B b=new A(); not allowed
+		
+		B b=(B) a1;// hey belive me it is B
+		
+		
+		
+//		double i=9.0400;
+//		int j=(int )i;
+//		System.out.println(j);
+	}
+
+}

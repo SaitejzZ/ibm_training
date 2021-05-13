@@ -1,0 +1,10 @@
+package com.day2.session2.productstack;
+
+public class Product {
+	private int id;
+	private String name;
+	private double price;
+	private double discount;
+	
+	
+}

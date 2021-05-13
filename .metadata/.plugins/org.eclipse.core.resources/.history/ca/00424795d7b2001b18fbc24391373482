@@ -1,0 +1,15 @@
+class Foo{
+
+	private Foo(){
+		System.out.println("dare to call me!");
+	}
+	public void logic() {
+		System.out.println("some logic");
+	}
+}
+public class DemoCtr {
+
+	public static void main(String[] args) {
+		Foo foo=new Foo();
+	}
+}

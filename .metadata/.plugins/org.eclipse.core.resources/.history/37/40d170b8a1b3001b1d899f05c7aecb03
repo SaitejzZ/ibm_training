@@ -1,0 +1,25 @@
+package com.employeeapp;
+
+class Cal {
+	public static long add(long a, int b) {
+		System.out.println("public static long add(long a, int b) ");
+		return a+b;
+	}
+
+	public static long add(int a, long b) {
+		System.out.println("ppublic static long add(int a, long b)");
+		return a+b;
+		
+	}
+
+}
+
+public class DemoOverloading {
+
+	public static void main(String[] args) {
+		int result = Cal.add(2, 1); 
+		
+		System.out.println(result);
+	}
+
+}

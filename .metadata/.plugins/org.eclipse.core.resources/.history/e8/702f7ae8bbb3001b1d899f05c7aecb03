@@ -1,0 +1,6 @@
+package com.day4.session1.demo_interface;
+
+abstract public class Stack {
+	public void push(int val) ;
+	public int pop();
+}

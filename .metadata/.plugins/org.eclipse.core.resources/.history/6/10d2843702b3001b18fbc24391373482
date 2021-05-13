@@ -1,0 +1,11 @@
+package com.employeeapp;
+
+public class Company {
+	private String companyName;
+	private String companyAddress;
+	
+	private Employee[] employees;
+	
+	
+	
+}

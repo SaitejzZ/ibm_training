@@ -1,0 +1,27 @@
+package com.day2.session1.inher;
+
+/* Object
+ * Box
+ * Box3D
+ * Box3DWithColor
+ */
+
+class Box {
+	private int l, b;
+
+	public Box(int l, int b) {
+		this.l = l;
+		this.b = b;
+	}
+	
+	public void print() {
+		System.out.println("l: "+ l);
+		System.out.println("b: "+ b);	
+	}
+}
+public class BoxTester {
+
+	public static void main(String[] args) {
+		
+	}
+}

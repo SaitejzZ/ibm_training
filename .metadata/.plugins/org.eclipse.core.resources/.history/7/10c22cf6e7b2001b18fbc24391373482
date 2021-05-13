@@ -1,0 +1,9 @@
+package com.day2.session1.inher;
+
+public class DemoInheri {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

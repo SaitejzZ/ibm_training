@@ -1,0 +1,11 @@
+package a.b;
+
+ class A {
+	private int i=88;
+	int j=77;
+	public int k=99;
+	
+	public void methodA() {
+		System.out.println("methodA of class A of package a.b");
+	}
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="Employee"/>
+<fullyQualifiedTypeName name="Metro"/>
+<fullyQualifiedTypeName name="Passanger"/>
+<fullyQualifiedTypeName name="Vehical"/>
+<fullyQualifiedTypeName name="Account"/>
+<fullyQualifiedTypeName name="a.b.A"/>
+<fullyQualifiedTypeName name="a.d.A"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="com.day2.session1.uml.Author"/>
+<fullyQualifiedTypeName name="com.day2.session1.uml.Book"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="com.day2.session1.inher.Box3D"/>
+<fullyQualifiedTypeName name="com.day2.session1.inher.Point"/>
+<fullyQualifiedTypeName name="com.day2.session1.inher.Triangle"/>
+<fullyQualifiedTypeName name="com.employeeapp.Company"/>
+<fullyQualifiedTypeName name="com.employeeapp.Employee"/>
+<fullyQualifiedTypeName name="com.employeeapp.Fruit"/>
+<fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+<fullyQualifiedTypeName name="com.day2.session2.stackapp.Stack"/>
+<fullyQualifiedTypeName name="com.day2.session2.productstack.Product"/>
+<fullyQualifiedTypeName name="java.lang.Runtime"/>
+</qualifiedTypeNameHistroy>

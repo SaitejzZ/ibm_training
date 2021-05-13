@@ -1,0 +1,25 @@
+package com.day4.session1.demo_interface;
+
+import com.day2.session2.stackapp.Stack;
+
+public class StackTest {
+	
+	public static void main(String[] args) {
+		Stack stack=new Stack();
+		stack.push(4);
+		stack.push(49);
+		stack.push(30);
+		stack.push(42);
+		stack.push(12);
+		//stack.push(12);
+		//stack.push(32);
+		
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+	}
+
+}

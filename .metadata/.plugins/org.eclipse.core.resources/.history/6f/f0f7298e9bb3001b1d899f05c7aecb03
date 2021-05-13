@@ -1,0 +1,27 @@
+package com.day4.session1.doubts;
+import java.util.*;// it contain collection api "readymade ds"
+public class DemoArrayList {
+	
+	public static void main(String[] args) {
+		//ArrayList vs LinkedList
+		
+		
+		//generics: java 1.5 : it provide type safty to the data stru , template class of c++
+		
+		ArrayList<String> l= new ArrayList<String>();
+	
+		l.add("raj");
+		l.add("pooja");
+		l.add("ekta");
+		l.add("gunika");
+		
+		System.out.println(l);
+		//enhace for loop
+		for(String data: l) {
+			System.out.println(data);
+		}
+		
+		
+	}
+
+}

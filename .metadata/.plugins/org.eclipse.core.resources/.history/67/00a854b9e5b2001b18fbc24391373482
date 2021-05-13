@@ -1,0 +1,8 @@
+package com.day2.session1.uml;
+
+public class MyFirstJob {
+				
+	private double myFirstSalary;
+	
+
+}

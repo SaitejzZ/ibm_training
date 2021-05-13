@@ -1,0 +1,23 @@
+package com.day4.session1.diamondprob;
+
+interface A{
+	void foo();
+}
+
+interface B{
+	void foo();
+}
+
+class C implements A, B{
+	public void foo() {
+		System.out.println("one");
+	}
+}
+
+public class DemoDiamondProblem {
+
+	public static void main(String[] args) {
+		
+	
+	}
+}

@@ -1,0 +1,33 @@
+class Foo{
+	
+	
+	//can we have private ctr, protected , public, default  
+	
+	private Foo(){
+		System.out.println("dare to call me!");
+	}
+	
+	//this is not a ctr, poorly named method
+	public void Foo() {
+		System.out.println("I...");
+	}
+	
+	//this is a ctr
+//	public Foo() {
+//		System.out.println("II...");
+//	}
+	
+	//ctr can not be static : why as static method belong to state of the class
+	//while ctr is used to init the object
+	//hence ctr cant not be static *
+	
+//	static public Foo() {
+//		System.out.println("II...");
+//	}
+}
+public class DemoCtr {
+
+	public static void main(String[] args) {
+		new Foo().Foo();
+	}
+}

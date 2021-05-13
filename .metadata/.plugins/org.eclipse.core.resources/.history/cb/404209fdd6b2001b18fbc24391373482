@@ -1,0 +1,18 @@
+class Foo{
+	
+	//this is not a ctr, poorly named method
+	public void Foo() {
+		System.out.println("I...");
+	}
+	
+	//this is a ctr
+	public Foo() {
+		System.out.println("II...");
+	}
+}
+public class DemoCtr {
+
+	public static void main(String[] args) {
+		new Foo().Foo();
+	}
+}

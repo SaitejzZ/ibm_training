@@ -1,0 +1,19 @@
+package com.day4.session1.overriding;
+
+class Shape{
+	public void getArea() {
+		System.out.println("area calcution");
+	}
+}
+class Circle extends Shape{
+	public void getArea() {
+		System.out.println("area of circle");
+	}
+}
+public class ExPolymorphism {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.day4.session1.demo_interface;
+
+public class StackSumanTest {
+	
+	public static void main(String[] args) {
+		StackSuman stack=new StackSuman();
+//		stack.push(4);
+//		stack.push(49);
+//		stack.push(30);
+//		stack.push(42);
+//		stack.push(12);
+//		//stack.push(12);
+//		//stack.push(32);
+//		
+//		System.out.println(stack.pop());
+//		System.out.println(stack.pop());
+//		System.out.println(stack.pop());
+//		System.out.println(stack.pop());
+//		System.out.println(stack.pop());
+//		System.out.println(stack.pop());
+	}
+
+}

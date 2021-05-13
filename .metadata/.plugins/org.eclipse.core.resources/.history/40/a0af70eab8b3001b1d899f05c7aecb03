@@ -1,0 +1,21 @@
+package com.day4.session1.overriding;
+
+abstract class A{
+	
+	private int i;
+	public A(int i) {
+		this.i=i;
+	}
+	abstract public void foo();
+	
+	public void printA() {
+		System.out.println("printA of A class "+ i);
+	}
+}
+public class DemoAbsClass {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

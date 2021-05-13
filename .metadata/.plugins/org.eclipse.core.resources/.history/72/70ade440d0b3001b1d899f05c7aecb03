@@ -1,0 +1,48 @@
+package com.demo;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class CalculatorTest {
+
+	private Calculator calculator;
+	
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		System.out.println("it will run only once at begining");
+	}
+
+	@Before
+	public void setUp() throws Exception {
+		System.out.println("run before each test case");
+		calculator=new Calculator();
+	}
+
+	@Test
+	public void addTest() {
+		//how to test : actual value then expected value
+		int val=calculator.add(3, 3);
+		Assert.assertEquals(6, val);
+	}
+	
+	@After
+	public void tearDown() throws Exception {
+		calculator=null;
+		System.out.println("run after each test case");
+	}
+
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+		System.out.println("it will run only once at end");
+	}
+
+	
+
+}
